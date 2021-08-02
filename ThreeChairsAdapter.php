@@ -26,6 +26,6 @@ class ThreeChairsAdapter implements ThreeChairs
 
     public function three()
     {
-        echo "Pin three doesn't exists, but it's OK.\n";
+        echo "Kursi ketiga tidak tersedia.\n";
     }
 }

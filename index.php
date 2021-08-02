@@ -11,7 +11,27 @@ $threechairs = new ThreeChairsSocket();
 $twochairs = new ThreeChairsAdapter(new TwoChairsSocket());
 
 $table1 = new Table($threechairs);
-$table1->checkForBooking();
-
 $table2 = new Table($twochairs);
-$table2->checkForBooking();
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adapter Pattern</title>
+</head>
+<body>
+    <h1>Booking Tempat</h1>
+    <span>Objek meja pertama: </span>
+    <?php
+    $table1->verifyForBooking();
+    ?>
+    <br>
+    <span>Objek meja kedua: </span>
+    <?php
+    $table2->verifyForBooking();
+    ?>
+</body>
+</html>

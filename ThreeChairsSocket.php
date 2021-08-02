@@ -6,16 +6,16 @@ class ThreeChairsSocket implements ThreeChairs
 {
     public function one()
     {
-        echo "Pin one exists.\n";
+        echo "Kursi satu tersedia.\n";
     }
 
     public function two()
     {
-        echo "Pin two exists.\n";
+        echo "kursi dua tersedia.\n";
     }
 
     public function three()
     {
-        echo "Pin three exists.\n";
+        echo "kursi tiga tersedia.\n";
     }
 }

@@ -11,7 +11,7 @@ class Table
         $this->socket = $socket;
     }
 
-    public function checkForBooking() {
+    public function verifyForBooking() {
         $this->socket->one();
         $this->socket->two();
         $this->socket->three();

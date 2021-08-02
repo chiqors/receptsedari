@@ -6,11 +6,11 @@ class TwoChairsSocket implements TwoChairs
 {
     public function one()
     {
-        echo "Pin one exists.\n";
+        echo "Kursi satu tersedia.\n";
     }
 
     public function two()
     {
-        echo "Pin two exists.\n";
+        echo "Kursi dua tersedia.\n";
     }
 }
