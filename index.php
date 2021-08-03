@@ -24,12 +24,12 @@ $table2 = new Table($twochairs);
 </head>
 <body>
     <h1>Booking Tempat</h1>
-    <span>Objek meja pertama (3 orang dengan 3 kursi): </span>
+    <b><span>Objek meja pertama (3 orang dengan 3 kursi): </span></b>
     <?php
     $table1->verifyForBooking();
     ?>
     <br>
-    <span>Objek meja kedua (3 orang dengan 2 kursi): </span>
+    <b><span>Objek meja kedua (3 orang dengan 2 kursi): </span></b>
     <?php
     $table2->verifyForBooking();
     ?>
